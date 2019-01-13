@@ -31,13 +31,15 @@ Download [HomeBankCSVInstaller.exe](https://github.com/cwverhey/HomeBankCSV/raw/
 Grab HomeBankCSV.py and run it, just make sure you have Python 3.x installed.
 
 ### CLI
-    HomeBankCSV.py <input file> <output file>
+    chmod +x HomeBankCSV.py
+	./HomeBankCSV.py <input file> <output file>
 
 Input file: ING/ASN CSV
 Output file: CSV for HomeBank Import, for CLI this will overwrite any existing file with the same name
 
 ### GUI
-    HomeBankCSV.py
+    chmod +x HomeBankCSV.py
+	HomeBankCSV.py
 
 Start without arguments to launch the GUI.
 
