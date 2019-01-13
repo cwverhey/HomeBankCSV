@@ -34,8 +34,8 @@ Grab HomeBankCSV.py and run it, just make sure you have Python 3.x installed.
     chmod +x HomeBankCSV.py
 	./HomeBankCSV.py <input file> <output file>
 
-Input file: ING/ASN CSV
-Output file: CSV for HomeBank Import, for CLI this will overwrite any existing file with the same name
+- Input file: ING/ASN CSV
+- Output file: CSV for HomeBank Import, for CLI this will overwrite any existing file with the same name
 
 ### GUI
     chmod +x HomeBankCSV.py
@@ -49,7 +49,6 @@ Column list:
 
     date ; payment mode ; info ; payee ; memo ; amount ; category ; tags
 
-Values:
 ```
 date     => Spefications claim DD-MM-YY, but that didn't work for me; HB seems to expect MM/DD/YYYY instead
 payment mode  => 0 = None; 1 = Credit Card; 2 = Check; 3 = Cash; 4 = Transfer; 5 = Internal Transfer; 6 = Debit Card; 7 = Standing Order; 8 = Electronic Payment; 9 = Deposit; 10 = Financial Institutions fee (transaction fees etc.); 11 = Direct Debit
