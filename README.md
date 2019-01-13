@@ -1,6 +1,6 @@
 # HomeBank CSV Converter for ASN Bank & ING Bank 🇳🇱
 
-If you are a user of the [HomeBank](http://homebank.free.fr/en/index.php) accounting software, you'll probably like to import transaction data from your bank into HomeBank. I am a customer of the Dutch ING Bank and the ASN Bank so I made a tool to convert their comma-seperated (CSV) downloads to a CSV file that HomeBank will understand.
+If you use the [HomeBank](http://homebank.free.fr/en/index.php) accounting software, you'll probably want to import transaction data from your bank into HomeBank. I am a customer of the Dutch ING Bank and the ASN Bank so I made a tool to convert their comma-seperated (CSV) downloads to a CSV file that HomeBank will understand.
 
 This software is available as Python script and as standalone executables for Windows and MacOS.
  
