@@ -41,7 +41,7 @@ Output file: CSV for HomeBank Import, for CLI this will overwrite any existing f
 
 Start without arguments to launch the GUI.
 
-## More informations
+## More information
 ### HomeBank CSV format
 Column list:
 
