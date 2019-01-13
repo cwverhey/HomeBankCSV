@@ -13,7 +13,7 @@ Known bugs/imperfections:
 
 Check back here if you ever need updates, contact me (bottom of this page) if you're having any trouble. I don't want to add an automatic check for updates; to avoid causing any concerns over your privacy this app would better not phone home.
 
-## MacOS
+## MacOS .app
 Download [HomeBankCSV.app.zip](https://github.com/cwverhey/HomeBankCSV/raw/master/releases/HomeBankCSV.app.zip) and unzip. Run the HomeBankCSV.app. To install, drag it to your Applications folder.
 
 Installing Python is not necessary: the required files are included in the app.
@@ -21,7 +21,7 @@ Installing Python is not necessary: the required files are included in the app.
 <img align="left" src="build-files/images/screenshot_macos.png" />
 <br clear="all" />
 
-## Windows
+## Windows .exe
 Download [HomeBankCSVInstaller.exe](https://github.com/cwverhey/HomeBankCSV/raw/master/releases/HomeBankCSVInstaller.exe) and run this installer. It will unpack the required files to a directory you choose, and if you want it will also create a start menu shortcut.
 
 <img align="left" src="build-files/images/screenshot_windows.png" />
