@@ -1,15 +1,16 @@
-# HomeBank CSV Converter for ASN Bank & ING Bank 🇳🇱
+# HomeBank CSV Converter for ASN, ING & Triodos Bank 🇳🇱
 
-If you use the [HomeBank](http://homebank.free.fr/en/index.php) accounting software, you'll probably want to import transaction data from your bank into HomeBank. I am a customer of the Dutch ING Bank and the ASN Bank so I made a tool to convert their comma-seperated (CSV) downloads to a CSV file that HomeBank will understand.
+If you use the [HomeBank](http://homebank.free.fr/en/index.php) accounting software, you'll probably want to import transaction data from your bank into HomeBank. I made a tool to convert Dutch ING Bank, ASN Bank and Triodos Bank comma-separated (CSV) downloads to a CSV file that HomeBank will understand.
 
 This software is available as Python script and as standalone executables for Windows and MacOS.
  
 ## Version info
-+ it works :)
+
+Latest version: 22 may 2019, added Triodos Bank NL, fixed ING debit/credit bug.
 
 Known bugs/imperfections:
-- if you open the file select dialog on Windows and press cancel, you'll receive a warning message as soon as you quit the program; feel free to ignore that warning until I fix this;
-- it's not yet possible to drag-and-drop files to the program; I'll look into it.
+- if you open the file select dialog on Windows and press cancel, you'll receive a warning message as soon as you quit the program; feel free to ignore that warning;
+- it's not yet possible to drag-and-drop files to the program.
 
 Check back here if you ever need updates, contact me (bottom of this page) if you're having any trouble. I don't want to add an automatic check for updates; to avoid causing any concerns over your privacy this app would better not phone home.
 
@@ -22,13 +23,15 @@ Installing Python is not necessary: the required files are included in the app.
 <br clear="all" />
 
 ## Windows .exe
-Download [HomeBankCSVInstaller.exe](https://github.com/cwverhey/HomeBankCSV/raw/master/releases/HomeBankCSVInstaller.exe) and run this installer. It will unpack the required files to a directory you choose, and if you want it will also create a start menu shortcut.
+Download [HomeBankCSVInstaller.exe](https://github.com/cwverhey/HomeBankCSV/raw/master/releases/HomeBankCSVInstaller.exe) and run this installer. It will unpack the required files to a directory you choose, and if you want it will also create a start menu shortcut. Uninstall any old versions before installing this one.
+
+If you don't want to install, download [HomeBankCSV.exe](https://github.com/cwverhey/HomeBankCSV/raw/master/releases/HomeBankCSV.exe).
 
 <img align="left" src="build-files/images/screenshot_windows.png" />
 <br clear="all" />
 
 ## Linux & power users
-Grab HomeBankCSV.py and run it, just make sure you have Python 3.x installed.
+Grab HomeBankCSV.py and run it, just make sure you have Python 3.6+ installed.
 
 ### CLI
     chmod +x HomeBankCSV.py

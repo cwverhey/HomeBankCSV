@@ -46,11 +46,11 @@ Section "HomeBank CSV Converter"
   
   ; Put file there
   File "dist\HomeBankCSV.exe"
-  File "dist\MSVCR100.dll"
-  File "dist\python34.dll"
-  File "dist\tcl86t.dll"
-  File "dist\tk86t.dll"
-  File /r /x encoding /x demos /x images /x tzdata /x msgs /x tk*.lib /x tcl*.sh /x tcl*.lib /x itcl* /x sqlite* /x tdbc* /x dde* /x reg* /x tcl8 /x thread* /x tix* "dist\tcl"
+  ;File "dist\MSVCR100.dll"
+  ;File "dist\python34.dll"
+  ;File "dist\tcl86t.dll"
+  ;File "dist\tk86t.dll"
+  ;File /r /x encoding /x demos /x images /x tzdata /x msgs /x tk*.lib /x tcl*.sh /x tcl*.lib /x itcl* /x sqlite* /x tdbc* /x dde* /x reg* /x tcl8 /x thread* /x tix* "dist\tcl"
   
   
   
@@ -87,11 +87,11 @@ Section "Uninstall"
 
   ; Remove files and uninstaller
   Delete $INSTDIR\HomeBankCSV.exe
-  Delete $INSTDIR\MSVCR100.dll
-  Delete $INSTDIR\python34.dll
-  Delete $INSTDIR\tcl86t.dll
-  Delete $INSTDIR\tk86t.dll
-  RMDir  /r $INSTDIR\tcl
+  ;Delete $INSTDIR\MSVCR100.dll
+  ;Delete $INSTDIR\python34.dll
+  ;Delete $INSTDIR\tcl86t.dll
+  ;Delete $INSTDIR\tk86t.dll
+  ;RMDir  /r $INSTDIR\tcl
   Delete $INSTDIR\HomeBankCSV.log
   Delete $INSTDIR\uninstall.exe
 

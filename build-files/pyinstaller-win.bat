@@ -1,0 +1,1 @@
+pyinstaller.exe --icon=build-files\images\icon.ico --windowed --onefile HomeBankCSV.py
