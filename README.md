@@ -27,9 +27,6 @@ Download [HomeBankCSVInstaller.exe](https://github.com/cwverhey/HomeBankCSV/raw/
 
 If you don't want to install, download [HomeBankCSV.exe](https://github.com/cwverhey/HomeBankCSV/raw/master/releases/HomeBankCSV.exe).
 
-<img align="left" src="build-files/images/screenshot_windows.png" />
-<br clear="all" />
-
 ## Linux & power users
 Grab HomeBankCSV.py and run it, just make sure you have Python 3.6+ installed.
 
