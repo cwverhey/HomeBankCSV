@@ -47,14 +47,16 @@ Grab HomeBankCSV.py and run it, just make sure you have Python 3.6+ installed.
 Start without arguments to launch the GUI.
 
 ## More information
-### HomeBank CSV format
+### HomeBank import CSV format
+Full specification: http://homebank.free.fr/help/misc-csvformat.html
+
 Column list:
 
-    date ; payment mode ; info ; payee ; memo ; amount ; category ; tags
+    date; payment mode; info; payee; memo; amount; category; tags
 
 ```
-date     => Specifications claim DD-MM-YY, but that didn't work for me; HB seems to expect MM/DD/YYYY instead
-payment mode  => 0 = None; 1 = Credit Card; 2 = Check; 3 = Cash; 4 = Transfer; 5 = Internal Transfer; 6 = Debit Card; 7 = Standing Order; 8 = Electronic Payment; 9 = Deposit; 10 = Financial Institutions fee (transaction fees etc.); 11 = Direct Debit
+date     => transation date, default format seems to be MM/DD/YYYY, but this can be changed in the settings under 'import/export'
+payment mode  => 0 = None; 1 = Credit Card; 2 = Check; 3 = Cash; 4 = Transfer; (5 = Internal Transfer, cannot be imported); 6 = Debit Card; 7 = Standing Order; 8 = Electronic Payment; 9 = Deposit; 10 = Financial Institutions fee (transaction fees etc.); 11 = Direct Debit
 info     => a string
 payee    => a payee name
 memo     => a string
@@ -62,6 +64,10 @@ amount   => a number with a '.' or ',' as decimal separator, eg: -24.12 or 36,75
 category => a full category name (category, or category:subcategory) eg: insurance:healthcare or groceries 
 tags	 => tags separated by space (mandatory since HomeBank v4.5)
 ```
+
+Separator is ';' by default but can be changed in the settings under 'import/export'. A header row is allowed but seems to be ignored. The columns need to be in this exact order, and additional columns will prevent the file from being imported.
+
+The exports Homebank makes follow a different format, see the full specification.
 
 #### Example
     15-02-04;0;;;ATM cash withdrawal;-40,00;Bill:Withdrawal of cash;tag1
