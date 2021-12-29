@@ -1,4 +1,4 @@
-# HomeBank CSV Converter for ASN, ING & Triodos Bank 🇳🇱
+# HomeBank CSV Converter for ASN, ING & Triodos 🇳🇱
 
 If you use the [HomeBank](http://homebank.free.fr/en/index.php) accounting software, you'll probably want to import transaction data from your bank into HomeBank. I made a tool to convert Dutch ING Bank, ASN Bank and Triodos Bank comma-separated (CSV) downloads to a CSV file that HomeBank will understand.
 
